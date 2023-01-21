@@ -1,0 +1,39 @@
+title: Figura 01.
+theme: "hugo-theme-onelou"
+baseURL: /
+languageCode: en-us
+module:
+    hugoVersion:
+        extended: true
+        min: "0.87.0"
+paginate: 10
+hasCJKLanguage: true
+params:
+  opengraph:
+    twitter: 'https://twitter.com'
+    github: 'https://github.com/jyygithub'
+  footer:
+    hidePowered: false # Powered by Hugo & theme OneLou
+    beian: 
+    since: 2022
+  prefix:
+    h2: ""
+    h3: ""
+menu:
+  navs:
+    - name: Equipo
+      params:
+        img: /img/logo1.png
+      url: /post/
+      weight: 1
+    - name: Projects
+      params:
+        img: /img/logo2.png
+      url: /projects/
+      weight: 2
+    - name: About
+      params:
+        img: /img/logo3.png
+      url: /about
+      weight: 3
+
